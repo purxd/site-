@@ -1,5 +1,4 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
-@import url("https://fonts.googleapis.com/css?family=Inter:400,700|Pixelify+Sans:700");
 * {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
@@ -36,34 +35,136 @@ a {
   border-color: #1a1a1a;
 }
 
-.element-light .overlap {
-  position: relative;
-  width: 1914px;
-  height: 475px;
+.element-light .text-wrapper {
+  position: absolute;
+  height: 50px;
   top: -8px;
+  left: 27px;
+  font-family: "Pixelify Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 21.6px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 50px;
+  white-space: nowrap;
 }
 
-.element-light .overlap-group {
+.element-light .link {
   position: absolute;
-  width: 1914px;
-  height: 475px;
+  width: 106px;
+  height: 36px;
   top: 0;
+  left: 120px;
+}
+
+.element-light .div {
+  position: absolute;
+  width: 86px;
+  height: 20px;
+  top: 7px;
+  left: 10px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16.4px;
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.element-light .container {
+  position: absolute;
+  width: 80px;
+  height: 36px;
+  top: 0;
+  left: 231px;
+}
+
+.element-light .div-wrapper {
+  position: absolute;
+  width: 45px;
+  height: 36px;
+  top: 0;
+  left: 10px;
+}
+
+.element-light .text-wrapper-2 {
+  position: absolute;
+  width: 46px;
+  height: 20px;
+  top: 7px;
   left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15.9px;
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.element-light .border {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 16px;
+  left: 60px;
+  border: 5px solid;
+  border-color: #ffffff;
+}
+
+.element-light .link-2 {
+  position: absolute;
+  width: 101px;
+  height: 24px;
+  top: 7px;
+  left: 1484px;
+  background-color: #00b600;
+  border-radius: 2px;
+}
+
+.element-light .text-wrapper-3 {
+  position: absolute;
+  width: 81px;
+  height: 15px;
+  top: 3px;
+  left: 10px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 12.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.element-light .container-2 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 667px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.element-light .container-2::-webkit-scrollbar {
+  width: 0;
+  display: none;
 }
 
 .element-light .overlap-group-wrapper {
   position: absolute;
-  width: 1914px;
+  width: 1920px;
   height: 430px;
-  top: 45px;
+  top: 0;
   left: 0;
   background-color: #525252;
-  overflow: hidden;
 }
 
-.element-light .div {
+.element-light .overlap-group {
   position: relative;
-  width: 1920px;
   height: 430px;
 }
 
@@ -123,12 +224,12 @@ a {
   height: 239px;
 }
 
-.element-light .container {
+.element-light .container-3 {
   position: absolute;
   width: 600px;
   height: 400px;
   top: 30px;
-  left: 657px;
+  left: 660px;
 }
 
 .element-light .prixel-is-a-free {
@@ -137,7 +238,7 @@ a {
   height: 134px;
   top: 72px;
   left: 30px;
-  font-family: "Inter", Helvetica;
+  font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 38.9px;
@@ -145,15 +246,16 @@ a {
   line-height: normal;
 }
 
-.element-light .text-wrapper {
-  font-family: "Inter", Helvetica;
+.element-light .span {
+  font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 38.9px;
   letter-spacing: 0;
 }
 
-.element-light .span {
+.element-light .text-wrapper-4 {
+  font-family: "Inter-Bold", Helvetica;
   font-weight: 700;
 }
 
@@ -163,7 +265,7 @@ a {
   height: 28px;
   top: 227px;
   left: 30px;
-  font-family: "Inter", Helvetica;
+  font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
   color: #cccccc;
   font-size: 23.4px;
@@ -172,7 +274,7 @@ a {
   white-space: nowrap;
 }
 
-.element-light .link {
+.element-light .link-3 {
   position: absolute;
   width: 160px;
   height: 50px;
@@ -182,13 +284,13 @@ a {
   border-radius: 2px;
 }
 
-.element-light .text-wrapper-2 {
+.element-light .text-wrapper-5 {
   position: absolute;
   width: 140px;
   height: 25px;
   top: 11px;
   left: 10px;
-  font-family: "Inter", Helvetica;
+  font-family: "Inter-Bold", Helvetica;
   font-weight: 700;
   color: #333333;
   font-size: 21.6px;
@@ -198,141 +300,23 @@ a {
   white-space: nowrap;
 }
 
-.element-light .text-wrapper-3 {
+.element-light .overlap {
   position: absolute;
-  height: 50px;
-  top: 0;
-  left: 27px;
-  font-family: "Pixelify Sans", Helvetica;
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 21.6px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 50px;
-  white-space: nowrap;
-}
-
-.element-light .div-wrapper {
-  position: absolute;
-  width: 106px;
-  height: 36px;
-  top: 8px;
-  left: 120px;
-}
-
-.element-light .text-wrapper-4 {
-  position: absolute;
-  width: 86px;
-  height: 20px;
-  top: 7px;
-  left: 10px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 16.4px;
-  letter-spacing: 0;
-  line-height: 36px;
-  white-space: nowrap;
-}
-
-.element-light .container-2 {
-  position: absolute;
-  width: 80px;
-  height: 36px;
-  top: 8px;
-  left: 231px;
-}
-
-.element-light .link-2 {
-  position: absolute;
-  width: 45px;
-  height: 36px;
-  top: 0;
-  left: 10px;
-}
-
-.element-light .text-wrapper-5 {
-  position: absolute;
-  width: 46px;
-  height: 20px;
-  top: 7px;
-  left: 0;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 15.9px;
-  letter-spacing: 0;
-  line-height: 36px;
-  white-space: nowrap;
-}
-
-.element-light .border {
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  top: 16px;
-  left: 60px;
-  border: 5px solid;
-  border-color: #ffffff;
-}
-
-.element-light .link-3 {
-  position: absolute;
-  width: 101px;
-  height: 24px;
-  top: 14px;
-  left: 1813px;
-  background-color: #00b600;
-  border-radius: 2px;
-}
-
-.element-light .text-wrapper-6 {
-  position: absolute;
-  width: 81px;
-  height: 15px;
-  top: 3px;
-  left: 10px;
-  font-family: "Inter", Helvetica;
-  font-weight: 700;
-  color: #000000;
-  font-size: 12.5px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 24px;
-  white-space: nowrap;
-}
-
-.element-light .overlap-wrapper {
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  height: 667px;
-  overflow: hidden;
-  overflow-y: scroll;
-}
-
-.element-light .overlap-wrapper::-webkit-scrollbar {
-  width: 0;
-  display: none;
-}
-
-.element-light .overlap-2 {
-  position: relative;
-  width: 2134px;
+  width: 2140px;
   height: 239px;
   top: 430px;
-}
-
-.element-light .container-3 {
-  position: absolute;
-  width: 1914px;
-  height: 239px;
-  top: 0;
   left: 0;
 }
 
 .element-light .container-4 {
+  position: absolute;
+  width: 1920px;
+  height: 239px;
+  top: 0;
+  left: 0;
+}
+
+.element-light .container-5 {
   position: absolute;
   width: 500px;
   height: 116px;
@@ -349,7 +333,7 @@ a {
   border-radius: 2px;
   border: 3px solid;
   border-color: #ffffff;
-  background-image: url(https://c.animaapp.com/LXCxZL40/img/feature-live-preview-gif.gif);
+  background-image: url(./img/feature-live-preview-gif.png);
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -368,7 +352,7 @@ a {
   height: 25px;
   top: 9px;
   left: 239px;
-  font-family: "Inter", Helvetica;
+  font-family: "Inter-Bold", Helvetica;
   font-weight: 700;
   color: #ffffff;
   font-size: 22px;
@@ -384,7 +368,7 @@ a {
   height: 32px;
   top: 45px;
   left: 42px;
-  font-family: "Inter", Helvetica;
+  font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
   color: #cccccc;
   font-size: 13.1px;
@@ -393,7 +377,7 @@ a {
   line-height: normal;
 }
 
-.element-light .container-5 {
+.element-light .container-6 {
   position: absolute;
   width: 500px;
   height: 116px;
@@ -410,7 +394,7 @@ a {
   border-radius: 2px;
   border: 3px solid;
   border-color: #ffffff;
-  background-image: url(https://c.animaapp.com/LXCxZL40/img/feature-export-gold-2x-png.svg);
+  background-image: url(./img/feature-export-gold.svg);
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -429,7 +413,7 @@ a {
   height: 25px;
   top: 9px;
   left: 20px;
-  font-family: "Inter", Helvetica;
+  font-family: "Inter-Bold", Helvetica;
   font-weight: 700;
   color: #ffffff;
   font-size: 22.3px;
@@ -444,7 +428,7 @@ a {
   height: 32px;
   top: 45px;
   left: 20px;
-  font-family: "Inter", Helvetica;
+  font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
   color: #cccccc;
   font-size: 13.2px;
@@ -454,19 +438,19 @@ a {
 
 .element-light .container-wrapper {
   position: absolute;
-  width: 2134px;
+  width: 2140px;
   height: 93px;
   top: 146px;
   left: 0;
   background-color: #111111;
 }
 
-.element-light .container-6 {
+.element-light .container-7 {
   position: relative;
   width: 456px;
   height: 70px;
   top: 12px;
-  left: 839px;
+  left: 842px;
 }
 
 .element-light .footer-item-support {
@@ -476,7 +460,7 @@ a {
   top: 35px;
   left: 0;
   border-radius: 5px;
-  background-image: url(https://c.animaapp.com/LXCxZL40/img/footer-item-support-png@2x.png);
+  background-image: url(./img/footer-item-support-png.png);
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -489,13 +473,13 @@ a {
   left: 40px;
 }
 
-.element-light .text-wrapper-7 {
+.element-light .text-wrapper-6 {
   position: absolute;
   width: 49px;
   height: 15px;
   top: -1px;
   left: 0;
-  font-family: "Inter", Helvetica;
+  font-family: "Inter-Bold", Helvetica;
   font-weight: 700;
   color: #ffffff;
   font-size: 12.3px;
@@ -503,7 +487,7 @@ a {
   line-height: normal;
 }
 
-.element-light .overlap-3 {
+.element-light .overlap-2 {
   position: absolute;
   width: 81px;
   height: 16px;
@@ -511,13 +495,13 @@ a {
   left: 104px;
 }
 
-.element-light .text-wrapper-8 {
+.element-light .text-wrapper-7 {
   position: absolute;
   width: 56px;
   height: 15px;
   top: 0;
   left: 0;
-  font-family: "Inter", Helvetica;
+  font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
   color: #aaaaaa;
   font-size: 12.8px;
@@ -534,13 +518,13 @@ a {
   left: 56px;
 }
 
-.element-light .text-wrapper-9 {
+.element-light .text-wrapper-8 {
   position: absolute;
   width: 26px;
   height: 15px;
   top: -1px;
   left: 0;
-  font-family: "Inter", Helvetica;
+  font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 12.8px;
@@ -557,13 +541,13 @@ a {
   left: 185px;
 }
 
-.element-light .text-wrapper-10 {
+.element-light .text-wrapper-9 {
   position: absolute;
   width: 28px;
   height: 15px;
   top: 0;
   left: 0;
-  font-family: "Inter", Helvetica;
+  font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
   color: #aaaaaa;
   font-size: 12.8px;
@@ -586,7 +570,7 @@ a {
   height: 15px;
   top: -1px;
   left: 0;
-  font-family: "Inter", Helvetica;
+  font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 12.1px;
@@ -594,7 +578,7 @@ a {
   line-height: normal;
 }
 
-.element-light .overlap-4 {
+.element-light .overlap-3 {
   position: absolute;
   width: 129px;
   height: 16px;
@@ -608,7 +592,7 @@ a {
   height: 15px;
   top: 0;
   left: 0;
-  font-family: "Inter", Helvetica;
+  font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
   color: #aaaaaa;
   font-size: 12.8px;
@@ -625,13 +609,13 @@ a {
   left: 50px;
 }
 
-.element-light .text-wrapper-11 {
+.element-light .text-wrapper-10 {
   position: absolute;
   width: 79px;
   height: 15px;
   top: -1px;
   left: 0;
-  font-family: "Inter", Helvetica;
+  font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 12px;
@@ -639,13 +623,13 @@ a {
   line-height: normal;
 }
 
-.element-light .text-wrapper-12 {
+.element-light .text-wrapper-11 {
   position: absolute;
   width: 4px;
   height: 15px;
   top: 42px;
   left: 452px;
-  font-family: "Inter", Helvetica;
+  font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
   color: #aaaaaa;
   font-size: 12.8px;
