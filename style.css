@@ -1,4 +1,5 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 * {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
@@ -40,7 +41,7 @@ a {
   height: 50px;
   top: -8px;
   left: 27px;
-  font-family: "Pixelify Sans-Bold", Helvetica;
+  font-family: "Pixelify Sans", Helvetica;
   font-weight: 700;
   color: #ffffff;
   font-size: 21.6px;
@@ -54,7 +55,7 @@ a {
   position: absolute;
   width: 106px;
   height: 36px;
-  top: 0;
+  top: 0px;
   left: 120px;
 }
 
@@ -122,7 +123,9 @@ a {
   left: 1484px;
   background-color: #00b600;
   border-radius: 2px;
+  
 }
+
 
 .element-light .text-wrapper-3 {
   position: absolute;
@@ -300,6 +303,9 @@ a {
   white-space: nowrap;
 }
 
+.element-light .link-3:hover{
+  box-shadow: 15px 10px 10px rgb(63, 63, 63);
+}
 .element-light .overlap {
   position: absolute;
   width: 2140px;
@@ -333,7 +339,7 @@ a {
   border-radius: 2px;
   border: 3px solid;
   border-color: #ffffff;
-  background-image: url(./img/feature-live-preview-gif.png);
+  background-image: url(https://pixeljoint.com/files/icons/full/eauaesthetics.gif);
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -385,18 +391,19 @@ a {
   left: 970px;
 }
 
-.element-light .feature-export-gold {
-  position: absolute;
-  width: 106px;
-  height: 106px;
-  top: 10px;
-  left: 0;
-  border-radius: 2px;
-  border: 3px solid;
-  border-color: #ffffff;
-  background-image: url(./img/feature-export-gold.svg);
-  background-size: cover;
-  background-position: 50% 50%;
+
+.feature-export-gold{
+box-sizing: border-box;
+position: absolute;
+width: 106px;
+height: 106px;
+left: 0px;
+top: 10px;
+background: url(https://i.imgur.com/etd3NxJ.png), #333333;
+background-repeat: no-repeat;
+background-position:0px;
+border: 3px solid #FFFFFF;
+border-radius: 2px;
 }
 
 .element-light .paragraph-2 {
@@ -460,7 +467,7 @@ a {
   top: 35px;
   left: 0;
   border-radius: 5px;
-  background-image: url(./img/footer-item-support-png.png);
+  background-image: url(https://www.piskelapp.com/static/resources/footer/footer-item-support.png);
   background-size: cover;
   background-position: 50% 50%;
 }
